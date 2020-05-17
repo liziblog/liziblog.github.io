@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liziblog.github.io/</id>
     <title>blog</title>
-    <updated>2020-05-17T09:46:06.315Z</updated>
+    <updated>2020-05-17T09:56:20.852Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liziblog.github.io/"/>
     <link rel="self" href="https://liziblog.github.io/atom.xml"/>
@@ -23,6 +23,28 @@
 #52xiao<br>
 #mumu123</p>
 <p>##这几个密码都是：1269116053</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[视频测试站]]></title>
+        <id>https://liziblog.github.io/post/shi-pin-ce-shi-zhan/</id>
+        <link href="https://liziblog.github.io/post/shi-pin-ce-shi-zhan/">
+        </link>
+        <updated>2020-05-17T09:54:41.000Z</updated>
+        <content type="html"><![CDATA[<p>以下是md的视频引用：看见则为成功，反正则为失败 。。。<br>
+<video><source src="http://xiaoxiangcai.ccaeo.com/?/%E7%94%B5%E5%BD%B1/%E6%A0%B7%E6%9C%AC%E7%B4%A0%E6%9D%90.mp4" type="video/mp4"></video></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[主题]]></title>
+        <id>https://liziblog.github.io/post/zhu-ti/</id>
+        <link href="https://liziblog.github.io/post/zhu-ti/">
+        </link>
+        <updated>2020-05-17T09:51:59.000Z</updated>
+        <content type="html"><![CDATA[<p>去github转了一圈，原来有那么多魔改的主题啊~</p>
+<p>突然感觉又多了几分选择！</p>
+<p>现在主题又改了，改的是chic-unique.<br>
+关闭了看板娘和邮箱call 我的功能，不然网页加载的有点小慢！</p>
 ]]></content>
     </entry>
     <entry>
