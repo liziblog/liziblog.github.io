@@ -29,7 +29,7 @@
 <body>
     <div id=side>
         <div class="avatar-border">
-            <img src="https://liziblog.github.io//images/avatar.png?v=1589701233660" class="avatar">
+            <img src="https://liziblog.github.io//images/avatar.png?v=1589702016148" class="avatar">
         </div>
         <div class="sitename">blog</div>
         <span class="describtion" data-text='["我的小博客"]'>&nbsp;</span>
@@ -79,7 +79,32 @@
     
     
     <hr>
-    <div id="footinfo">share  <a href="http://xiaoxiangcai.ccaeo.com" target="_blank">me</a> | Theme: <a href="https://github.com/850552586/gridea-theme-fog">Fog</a></div>
+    <div id="footinfo">    function siteTime(){
+    window.setTimeout("siteTime()", 1000);
+    var seconds = 1000
+    var minutes = seconds * 60
+    var hours = minutes * 60
+    var days = hours * 24
+    var years = days * 365
+    var today = new Date()
+    var todayYear = today.getFullYear()
+    var todayMonth = today.getMonth()
+    var todayDate = today.getDate()
+    var todayHour = today.getHours()
+    var todayMinute = today.getMinutes()
+    var todaySecond = today.getSeconds()
+    var t1 = Date.UTC(2020,5,16,08,19,00)
+    var t2 = Date.UTC(todayYear,todayMonth,todayDate,todayHour,todayMinute,todaySecond)
+    var diff = t2-t1
+    var diffYears = Math.floor(diff/years)
+    var diffDays = Math.floor((diff/days)-diffYears*365)
+    var diffHours = Math.floor((diff-(diffYears*365+diffDays)*days)/hours)
+    var diffMinutes = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours)/minutes)
+    var diffSeconds = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours-diffMinutes*minutes)/seconds)
+    document.getElementById("sitetime").innerHTML=""+diffYears+" 年 "+diffDays+" 天 "+diffHours+" 小时 "+diffMinutes+" 分钟 "+diffSeconds+" 秒"
+    }
+    siteTime()
+ | Theme: <a href="https://github.com/850552586/gridea-theme-fog">Fog</a></div>
     <div id="sitegotimeDate">载入天数...</div>
     <div id="sitegotimes">载入时分秒...</div>
     <div id="cussitetime" style="display:none"></div>
