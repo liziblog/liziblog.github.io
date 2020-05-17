@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liziblog.github.io/</id>
     <title>blog</title>
-    <updated>2020-05-17T07:59:41.940Z</updated>
+    <updated>2020-05-17T09:43:55.618Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liziblog.github.io/"/>
     <link rel="self" href="https://liziblog.github.io/atom.xml"/>
@@ -11,6 +11,21 @@
     <icon>https://liziblog.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, blog</rights>
     <entry>
+        <title type="html"><![CDATA[炫猿导航]]></title>
+        <id>https://liziblog.github.io/post/xuan-yuan-dao-hang/</id>
+        <link href="https://liziblog.github.io/post/xuan-yuan-dao-hang/">
+        </link>
+        <updated>2020-05-18T00:09:26.000Z</updated>
+        <content type="html"><![CDATA[<p>##一个在线的导航站<br>
+特点：支持自定义导航栏内容，可作为一个在线书签使用。几个月前还蛮火的。</p>
+<p>##分享几个炫猿的账号<br>
+#porbhub🤠这个是恶趣味抢注的！<br>
+#52xiao<br>
+#mumu123</p>
+<p>##这几个密码都是：1269116053</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[ssss]]></title>
         <id>https://liziblog.github.io/post/ssss/</id>
         <link href="https://liziblog.github.io/post/ssss/">
@@ -18,16 +33,6 @@
         <updated>2020-05-17T01:50:40.000Z</updated>
         <content type="html"><![CDATA[<p>jldaccccccccccccccccccccccccccccccccccccccccccccc<img src="http://xiaoxiangcai.ccaeo.com/?/%E7%85%A7%E7%89%87/0dcd857a30ec80a41cad783218ec9848.jpg" alt="" loading="lazy"><br>
 🤡</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[test]]></title>
-        <id>https://liziblog.github.io/post/test/</id>
-        <link href="https://liziblog.github.io/post/test/">
-        </link>
-        <updated>2020-05-17T00:09:26.000Z</updated>
-        <content type="html"><![CDATA[<p>test book<br>
-<img src='http://xiaoxiangcai.ccaeo.com/?/%E7%85%A7%E7%89%87/0dcd857a30ec80a41cad783218ec9848.jpg' /></p>
 ]]></content>
     </entry>
     <entry>
