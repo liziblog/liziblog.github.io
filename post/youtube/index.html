@@ -1,11 +1,19 @@
 <html>
 
 <head>
+    <!-- 防止浏览器缓存 -->
+<meta http-equiv="pragma" content="no-cache"> 
+<meta http-equiv="Cache-Control" content="no-cache, must-revalidate"> 
+<meta http-equiv="expires" content="Wed, 26 Feb 1997 08:21:57 GMT">
+
+<!-- ?????? -->
+    
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
     <meta charset="utf-8" />
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>
-    Gridea | blog
+    youtube | blog
 </title>
 <link rel="shortcut icon" href="https://liziblog.github.io//favicon.ico?v=1589881803798">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
@@ -18,6 +26,14 @@
 <script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
+    
+    
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    
+
+    
+    
 </head>
 
 <body>
@@ -92,64 +108,63 @@
     });
 </script>
 
-            <div id="main-content" class="post-container main-container">
-                <div id="content" class="main-container-left">
-                    
-    <div class="i-card">
-        <b>标签：#
-        Gridea</b>
-    </div>
-    
-        
-            <article class="post i-card">
-                <h2 class="post-title">
-                    <a href="https://liziblog.github.io/post/hello-gridea/">
-                        Hello Gridea
-                    </a>
-                </h2>
-                <div class="post-info">
-                    <time class="post-time">2018-12-12</time>
-                    
-                        <a href="https://liziblog.github.io/tag/-0qCC5qhH/" class="post-tag i-tag
-                            i-tag-info">
-            #Gridea
-        </a>
+        <div id="main-content" class="post-detail main-container">
+            <!-- left -->
+            <div id="content" class="main-container-left">
+                <article class="post i-card">
+                    <h2 class="post-title">
+                        youtube
+                    </h2>
+                    <div class="post-info">
+                        <time class="post-time">2020-05-19</time>
                         
-                </div>
-                <div class="post-article">
+                    </div>
                     
-                        <a href="https://liziblog.github.io/post/hello-gridea/" class="post-feature-image" style="background-image:url(https://liziblog.github.io//post-images/hello-gridea.jpg) ">
-                        </a>
-                         
-                            <div class="post-content">
-                                
-                                        <div class="post-content-content">
-                                            
-👏  欢迎使用 Gridea ！
-✍️  Gridea 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...
-
-Github
-Gridea 主页
-示例网站
-特性�...
-                                        </div>
-                                        
-                                            <a class="btn btn-text" href="https://liziblog.github.io/post/hello-gridea/">Read More ~</a>
-                            </div>
-                </div>
-            </article>
-            
-                <!-- 翻页 -->
+                    <div class="post-content">
+                        <iframe width="711" height="400" src="https://www.youtube.com/embed/eEDmZlVCCzc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </article>
+                <!--  -->
                 
-
+                <div class="next-post">
+                    <div class="next">下一篇</div>
+                    <a href="https://liziblog.github.io/post/xuan-yuan-dao-hang/">
+                        <h3 class="post-title">
+                            炫猿导航
+                        </h3>
+                    </a>
                 </div>
-                <!--  -->
-                <div class="main-container-middle"></div>
-                <!--  -->
-                <div id="sidebar" class="main-container-right">
+                
+                <div id="disqus_thread"></div>
+                <div id="gitalk-container"></div>
+                <div id="vcomments"></div>
+                <div class="site-footer">
+  友链：<a href="http://xiaoxiangcai.ccaeo.com" target="_blank">网盘</a> |
+  <a class="rss" href="https://liziblog.github.io//atom.xml" target="_blank">RSS</a>
+</div>
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
 
-                    <!-- 个人信息 -->
-                    
+            </div>
+            <!-- middle -->
+            <div class="main-container-middle"></div>
+            <!-- right -->
+            <div id="sidebar" class="main-container-right">
+                
+                <!-- id-card -->
+                
     <div class="id_card i-card">
         <div class="id_card-avatar" style="background-image: url(https://liziblog.github.io//images/avatar.png?v=1589881803798)">
         </div>
@@ -176,48 +191,43 @@ Gridea 主页
         </div>
     </div>
     
-
-                        <!-- 公告栏 -->
-                        
-    <div class="notice-card i-card ">
-        <div class="notice-title i-card-title">公告</div>
-        <div class="notice-content">
-            欢迎参观~
-        </div>
-    </div>
-    
+                
 
                 </div>
             </div>
 
+            </div>
+            <script>
+                $('#sidebar').stickySidebar({
+                    topSpacing: 80,
+                    // bottomSpacing: 60
+                });
+            </script>
+            <!-- ?????? -->
+            <script>
+                hljs.initHighlightingOnLoad()
+              </script>
+            
+            
+            <script>
+    window.onload = function() {
+        var gitalk = new Gitalk({
+            clientID: 'f4528306d17e12742257',
+            clientSecret: '48a9619cfc05947304dcdf5a8b5fc1ea05064d29',
+            repo: 'liziblog.github.io',
+            owner: 'liziblog',
+            admin: ['liziblog'],
+            id: (location.pathname).substring(0, 49), // Ensure uniqueness and length less than 50
+            distractionFreeMode: false // Facebook-like distraction free mode
+        })
 
-
-            <div class="site-footer">
-  友链：<a href="http://xiaoxiangcai.ccaeo.com" target="_blank">网盘</a> |
-  <a class="rss" href="https://liziblog.github.io//atom.xml" target="_blank">RSS</a>
-</div>
-<script>
-(function(){
-    var bp = document.createElement('script');
-    var curProtocol = window.location.protocol.split(':')[0];
-    if (curProtocol === 'https') {
-        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        gitalk.render('gitalk-container')
     }
-    else {
-        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-    }
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(bp, s);
-})();
 </script>
+            
 
-    </div>
-    <script>
-        $('#sidebar').stickySidebar({
-            topSpacing: 80,
-            // bottomSpacing: 60
-        });
-    </script>
+            
+            
 </body>
 
 </html>
