@@ -13,7 +13,7 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>
-    主题 | blog
+    代码测试 | blog
 </title>
 <link rel="shortcut icon" href="https://liziblog.github.io//favicon.ico?v=1589892514687">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
@@ -113,18 +113,37 @@
             <div id="content" class="main-container-left">
                 <article class="post i-card">
                     <h2 class="post-title">
-                        主题
+                        代码测试
                     </h2>
                     <div class="post-info">
-                        <time class="post-time">2020-05-17</time>
+                        <time class="post-time">2020-05-19</time>
                         
                     </div>
                     
                     <div class="post-content">
-                        <p>去github转了一圈，原来有那么多魔改的主题啊~</p>
-<p>突然感觉又多了几分选择！</p>
-<p>现在主题又改了，改的是chic-unique.<br>
-关闭了看板娘和邮箱call 我的功能，不然网页加载的有点小慢！</p>
+                        <pre><code>import jieba
+f=open(&quot;红楼梦.txt&quot;,&quot;r&quot;,encoding=&quot;utf-8&quot;)
+txt=f.read()
+f.close()
+words=jieba.lcut(txt)
+counts={}
+for word in words:
+    if len(word)==1:
+        continue
+    else:
+        counts[word]=counts.get(word,0)+1
+items=list(counts.items())
+items.sort(key=lambda x:x[1],reverse=True)
+for i in range(15):
+    word,count=items[i]
+    print(&quot;{0:&lt;10}{1:&gt;5}&quot;.format(word,count))
+
+
+————————————————
+版权声明：本文为CSDN博主「DomMayer&amp;#039;s paradox」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：&lt;https://blog.csdn.net/weixin_44396540/article/details/88085543&gt;
+</code></pre>
+<p><font color=blue>方法：使用tab键上面的那个键，（英文模式，开始结尾输入三下。）</font></p>
 
                     </div>
                 </article>
@@ -132,9 +151,9 @@
                 
                 <div class="next-post">
                     <div class="next">下一篇</div>
-                    <a href="https://liziblog.github.io/post/ssss/">
+                    <a href="https://liziblog.github.io/post/jia-ru-you-yi-tian-wo-bian-pi-liao-qing-ji-de-wo-shan-liang-guo/">
                         <h3 class="post-title">
-                            ssss
+                            假如有一天我变坏了，请记得我善良过
                         </h3>
                     </a>
                 </div>
