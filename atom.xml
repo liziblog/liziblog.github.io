@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liziblog.github.io/</id>
     <title>blog</title>
-    <updated>2020-05-20T02:27:20.039Z</updated>
+    <updated>2020-05-20T07:20:43.905Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liziblog.github.io/"/>
     <link rel="self" href="https://liziblog.github.io/atom.xml"/>
@@ -11,12 +11,79 @@
     <icon>https://liziblog.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, blog</rights>
     <entry>
+        <title type="html"><![CDATA[rss]]></title>
+        <id>https://liziblog.github.io/post/rss/</id>
+        <link href="https://liziblog.github.io/post/rss/">
+        </link>
+        <updated>2020-05-20T06:55:15.000Z</updated>
+        <content type="html"><![CDATA[<p>#rsshub虽然dns被污染了，但还是能用的，今天下午发现了两个大佬分享的rsshub的订阅地址。<br>
+##使用方法：把订阅链接里的rsshub.app改了就行了。<br>
+##两个域名：rsshub.ioiox.com<br>
+rss.shab.fun<br>
+###原文：<a href="https://www.coolapk.com/feed/16627671?shareKey=ZjA3Y2MxMWJhNDJiNWVjNGQ1OWQ~&amp;shareUid=2782926&amp;shareFrom=com.coolapk.market_10.0.4-beta">酷安</a><br>
+<a href="https://www.ioiox.com/page/1/">博客</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[网易云音乐外链]]></title>
+        <id>https://liziblog.github.io/post/wang-yi-yun-yin-le-wai-lian/</id>
+        <link href="https://liziblog.github.io/post/wang-yi-yun-yin-le-wai-lian/">
+        </link>
+        <updated>2020-05-20T03:52:59.000Z</updated>
+        <content type="html"><![CDATA[<p>1：有播放列表</p>
+<iframe frameborder="0" border="1"             
+ 　　marginwidth="0" marginheight="0"            
+ 　　width="100%" height="360"             
+ 　　src="//music.163.com/outchain/player?type=2&amp;id=2512690504&amp;auto=1&amp;height=80">
+</iframe>
+<pre><code>&lt;iframe frameborder=&quot;0&quot; border=&quot;1&quot;             
+ 　　marginwidth=&quot;0&quot; marginheight=&quot;0&quot;            
+ 　　width=&quot;100%&quot; height=&quot;360&quot;             
+ 　　src=&quot;//music.163.com/outchain/player?type=2&amp;amp;id=2512690504&amp;amp;auto=1&amp;amp;height=80&quot;&gt;
+&lt;/iframe&gt;
+</code></pre>
+<p>2：无播放列表</p>
+<iframe frameborder="0" border="1"        
+ 　marginwidth="0" marginheight="0"            
+ 　width=250height=62
+ 　src="//music.163.com/outchain/player?type=2&id=464916877&auto=1&height=60">
+</iframe>
+<pre><code>&lt;iframe frameborder=&quot;0&quot; border=&quot;1&quot;        
+ 　marginwidth=&quot;0&quot; marginheight=&quot;0&quot;            
+ 　width=250height=62
+ 　src=&quot;//music.163.com/outchain/player?type=2&amp;id=464916877&amp;auto=1&amp;height=60&quot;&gt;
+&lt;/iframe&gt;
+</code></pre>
+<p>3：用embed实现。</p>
+<p><embed border="0" 
+     marginwidth="0" marginheight="0" 
+     width="250" height="52" 
+     src="//music.163.com/outchain/player?type=0&amp;id=2512690504&amp;auto=1&amp;height=32"></p>
+<pre><code>&lt;embed border=&quot;0&quot; 
+     marginwidth=&quot;0&quot; marginheight=&quot;0&quot; 
+     width=&quot;250&quot; height=&quot;52&quot; 
+     src=&quot;//music.163.com/outchain/player?type=0&amp;amp;id=2512690504&amp;amp;auto=1&amp;amp;height=32&quot;&gt;
+
+</code></pre>
+<p>改ID即可使用。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[音乐]]></title>
+        <id>https://liziblog.github.io/post/yin-le/</id>
+        <link href="https://liziblog.github.io/post/yin-le/">
+        </link>
+        <updated>2020-05-20T03:13:27.000Z</updated>
+        <content type="html"><![CDATA[<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/the-goat/1511793475?app=music"></iframe>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[青年大学习跳结尾代码]]></title>
         <id>https://liziblog.github.io/post/qing-nian-da-xue-xi-tiao-jie-wei-dai-ma/</id>
         <link href="https://liziblog.github.io/post/qing-nian-da-xue-xi-tiao-jie-wei-dai-ma/">
         </link>
         <updated>2020-05-20T01:19:03.000Z</updated>
-        <content type="html"><![CDATA[<p>**1:**微信搜索X5内核调试页。</p>
+        <content type="html"><![CDATA[<p>##1:微信搜索X5内核调试页。</p>
 <p><strong>2：<strong>打开</strong>&quot;信息&quot;<strong>一栏，打开  <strong>TBS settings</strong>l里面的</strong>vConsole</strong>调试功能。</p>
 <p><strong>3：<strong>点击右下角的</strong>vConsole</strong>，然后输入代码。<br>
 <strong>代码地址</strong></p>
@@ -143,46 +210,6 @@ for i in range(15):
 <p>突然感觉又多了几分选择！</p>
 <p>现在主题又改了，改的是chic-unique.<br>
 关闭了看板娘和邮箱call 我的功能，不然网页加载的有点小慢！</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ssss]]></title>
-        <id>https://liziblog.github.io/post/ssss/</id>
-        <link href="https://liziblog.github.io/post/ssss/">
-        </link>
-        <updated>2020-05-17T01:50:40.000Z</updated>
-        <content type="html"><![CDATA[<p>jldaccccccccccccccccccccccccccccccccccccccccccccc<img src="http://xiaoxiangcai.ccaeo.com/?/%E7%85%A7%E7%89%87/0dcd857a30ec80a41cad783218ec9848.jpg" alt="" loading="lazy"><br>
-🤡</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://liziblog.github.io/post/hello-gridea/</id>
-        <link href="https://liziblog.github.io/post/hello-gridea/">
-        </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <content type="html"><![CDATA[<!-- more -->
-<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
 ]]></content>
     </entry>
 </feed>
