@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liziblog.github.io/</id>
     <title>blog</title>
-    <updated>2020-05-20T01:18:22.117Z</updated>
+    <updated>2020-05-20T01:35:18.359Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liziblog.github.io/"/>
     <link rel="self" href="https://liziblog.github.io/atom.xml"/>
@@ -10,6 +10,27 @@
     <logo>https://liziblog.github.io/images/avatar.png</logo>
     <icon>https://liziblog.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, blog</rights>
+    <entry>
+        <title type="html"><![CDATA[青年大学习跳结尾代码]]></title>
+        <id>https://liziblog.github.io/post/qing-nian-da-xue-xi-tiao-jie-wei-dai-ma/</id>
+        <link href="https://liziblog.github.io/post/qing-nian-da-xue-xi-tiao-jie-wei-dai-ma/">
+        </link>
+        <updated>2020-05-20T01:19:03.000Z</updated>
+        <content type="html"><![CDATA[<p>**1:**微信搜索X5内核调试页。</p>
+<p><strong>2：<strong>打开</strong>&quot;信息&quot;<strong>一栏，打开  <strong>TBS settings</strong>l里面的</strong>vConsole</strong>调试功能。</p>
+<p><strong>3：<strong>点击右下角的</strong>vConsole</strong>，然后输入代码。<br>
+<strong>代码地址</strong></p>
+<pre><code>s=5
+
+$('.section9 .w0').click()
+
+$('#a1').hide();
+
+$('.section3').addClass('topindex1');
+</code></pre>
+<p>原文链接：<a href="https://www.coolapk.com/feed/17698005?shareKey=N2U0YzhlODU4MzVlNWVjNDgzYzM~&amp;shareUid=2782926&amp;shareFro">酷安</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[代码测试]]></title>
         <id>https://liziblog.github.io/post/dai-ma-ce-shi/</id>
