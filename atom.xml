@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liziblog.github.io/</id>
     <title>blog</title>
-    <updated>2020-05-21T12:08:52.230Z</updated>
+    <updated>2020-05-21T12:33:38.303Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liziblog.github.io/"/>
     <link rel="self" href="https://liziblog.github.io/atom.xml"/>
@@ -16,7 +16,10 @@
         <link href="https://liziblog.github.io/post/test/">
         </link>
         <updated>2020-05-21T12:08:39.000Z</updated>
-        <content type="html"><![CDATA[<p>&lt;EMBED src= http://music.163.com/song/157288/?userid=1569141203width=300 height=45 type=audio/mpeg loop=&quot;-1&quot; autostart=&quot;false&quot; volume=&quot;0&quot;&gt;</EMBED></p>
+        <content type="html"><![CDATA[<p>&lt;embed border=&quot;0&quot;<br>
+marginwidth=&quot;0&quot; marginheight=&quot;0&quot;<br>
+width=&quot;250&quot; height=&quot;52&quot;<br>
+src=//music.163.com/song/157288/?userid=1569141203&quot;&amp;auto=1&amp;height=32&quot;&gt;</p>
 ]]></content>
     </entry>
     <entry>
@@ -74,11 +77,10 @@ rss.shab.fun<br>
 &lt;/iframe&gt;
 </code></pre>
 <p>2：无播放列表</p>
-<iframe frameborder="0" border="1"        
- 　marginwidth="0" marginheight="0"            
- 　width=250height=62
- 　src="//music.163.com/outchain/player?type=2&id=464916877&auto=1&height=60">
-</iframe>
+<p><embed border="0" 
+     marginwidth="0" marginheight="0" 
+     width="250" height="52" 
+     src="//music.163.com/outchain/player?type=0&amp;id=1388544715&amp;auto=1&amp;height=32"></p>
 <pre><code>&lt;iframe frameborder=&quot;0&quot; border=&quot;1&quot;        
  　marginwidth=&quot;0&quot; marginheight=&quot;0&quot;            
  　width=250height=62
