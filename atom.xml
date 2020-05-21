@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liziblog.github.io/</id>
     <title>blog</title>
-    <updated>2020-05-21T13:53:32.960Z</updated>
+    <updated>2020-05-21T14:35:59.712Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liziblog.github.io/"/>
     <link rel="self" href="https://liziblog.github.io/atom.xml"/>
@@ -10,6 +10,22 @@
     <logo>https://liziblog.github.io/images/avatar.png</logo>
     <icon>https://liziblog.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, blog</rights>
+    <entry>
+        <title type="html"><![CDATA[a,b站HTML嵌入代码修改]]></title>
+        <id>https://liziblog.github.io/post/ab-zhan-html-qian-ru-dai-ma-xiu-gai/</id>
+        <link href="https://liziblog.github.io/post/ab-zhan-html-qian-ru-dai-ma-xiu-gai/">
+        </link>
+        <updated>2020-05-21T14:26:59.000Z</updated>
+        <content type="html"><![CDATA[<p><strong>哔哩哔哩</strong></p>
+<iframe id="spkj" src="https://player.bilibili.com/player.html?aid=BV1We411W7t3&amp;page=1"
+ width="100%" frameborder="no" scrolling="no" allowfullscreen="allowfullscreen">
+<span data-mce-type="bookmark" style="display: inline-block; width: 0px; 
+overflow: hidden; line-height: 0;" class="mce_SELRES_start"></span>
+ </iframe> 
+<script type="text/javascript"> document.getElementById("spkj").style.height=document.getElementById("spkj").scrollWidth*0.76+"px"; </script>
+<p><strong>acfun</strong></p>
+<iframe id="spkj" src="https://www.acfun.cn/player/ac15571199" width="100%" frameborder="no" scrolling="no" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start"></span> <span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start"></span> </iframe> <script type="text/javascript"> document.getElementById("spkj").style.height=document.getElementById("spkj").scrollWidth*0.76+"px"; </script>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[走过世界每个角落]]></title>
         <id>https://liziblog.github.io/post/zou-guo-shi-jie-mei-ge-jiao-luo/</id>
@@ -22,7 +38,7 @@
 <iframe src="//player.bilibili.com/player.html?aid=66510842&bvid=BV1Z441117vV&cid=115348058&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 <p><strong>acfun</strong></p>
 <iframe style="min-width: 500px;min-height: 300px"   src="https://www.acfun.cn/player/ac10862309" id="ACPlayer-re"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-<p><font color=blue>好多视频网站都是支持内嵌代码的</font></p>
+<p><font color=blue>好多视频网站都是支持内嵌代码的，手机状态下建议横屏</font></p>
 ]]></content>
     </entry>
     <entry>
@@ -186,39 +202,6 @@ for i in range(15):
 原文链接：&lt;https://blog.csdn.net/weixin_44396540/article/details/88085543&gt;
 </code></pre>
 <p><font color=blue>方法：使用tab键上面的那个键，（英文模式，开始结尾输入三下。）</font></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[假如有一天我变坏了，请记得我善良过]]></title>
-        <id>https://liziblog.github.io/post/jia-ru-you-yi-tian-wo-bian-pi-liao-qing-ji-de-wo-shan-liang-guo/</id>
-        <link href="https://liziblog.github.io/post/jia-ru-you-yi-tian-wo-bian-pi-liao-qing-ji-de-wo-shan-liang-guo/">
-        </link>
-        <updated>2020-05-19T11:34:09.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>假如有一天我变坏了，请记得我善良过！</strong></p>
-]]></summary>
-        <content type="html"><![CDATA[<p><strong>假如有一天我变坏了，请记得我善良过！</strong></p>
-<!-- more -->
-<p><font color=green>如果有一天，我变坏了。</p>
-<p>请记得 ，我曾经善良过…</p>
-<p>如果有一天，我变冷漠了。</p>
-<p>请记得 ，我曾经也被冷漠过…</p>
-<p>如果有一天，我变的目中无人了。</p>
-<p>请记得，曾经也没有人把我放在眼里…</p>
-<p>如果有一天，我不会在乎任何事。</p>
-<p>请记得，曾经也没有人在乎过我…</p>
-<p>如果有一天，我不再喜欢笑了。</p>
-<p>请记得，曾经没有人问过我快不快乐…</p>
-<p>如果有一天，我不再关心任何人了。</p>
-<p>请记得，一直以来都是我一个人哭</p>
-<p>一个人笑…</p>
-<p>如果有一天，我对一切都绝望了。</p>
-<p>请记得，我曾经得到的都是失望…</p>
-<p>如果有一天，你讥讽我的颓废。</p>
-<p>请记得，我一直经历了怎样的疲惫…</p>
-<p>如果有一天，你都可悲我的堕落。</p>
-<p>请记得，我的自信是怎样被磨灭的…</p>
-<p>如果有一天，我变得不在善良。</p>
-<p>请记得，从前就是因为我的善良而总是伤痕累累</font></p>
 ]]></content>
     </entry>
 </feed>
