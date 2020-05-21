@@ -1,130 +1,138 @@
 <html>
-  <head>
+
+<head>
+    <!-- 防止浏览器缓存 -->
+<meta http-equiv="pragma" content="no-cache"> 
+<meta http-equiv="Cache-Control" content="no-cache, must-revalidate"> 
+<meta http-equiv="expires" content="Wed, 26 Feb 1997 08:21:57 GMT">
+
+<!-- ?????? -->
+    
+        <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/highlight.min.js"></script>
+        <link rel="stylesheet" href=".prettyprint,pre.prettyprint {     background:#fff;     background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);     border:1px dashed #ccc; } .prettyprint:hover,pre.prettyprint:hover {     background:#fafafa;     background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);     border:1px dashed #0088cc; } .prettyprint.linenums,pre.prettyprint.linenums {     -webkit-box-shadow:none;     box-shadow:none;     border-radius:0; } .prettyprint.linenums,pre.prettyprint.linenums .linenums{     background-color:#fafafa; } .prettyprint.linenums ol,pre.prettyprint.linenums ol {     counter-reset: my-counter; } .prettyprint .pun,.prettyprint .opn,.prettyprint .clo {     color:#ccc; } .prettyprint .typ,.prettyprint .atn,.prettyprint .dec,.prettyprint .var {     color:#090; } .prettyprint .lit {     color:#f15a22; } .prettyprint .com {     color:#694d9f; } .prettyprint .pln {     color:#09a; } .prettyprint .pun {     color:#ef5b9c; } .prettyprint.linenums ol li,pre.prettyprint.linenums ol li{     list-style: none;     margin:6px 0px;     padding-left:19px; } .prettyprint.linenums ol li:before,pre.prettyprint.linenums ol li:before{     content: counter(my-counter);     counter-increment: my-counter;     background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);     color: white;     display: block;     float: left;     line-height: 22px;     margin-left: -30px;     text-align: center;     height: 22px;     width: 22px;     border-radius: 50%;     font-size:12px; } ">
+        
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
     <meta charset="utf-8" />
+<meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Hello Gridea | blog</title>
-<meta name="description" content="小王blog" />
-<link rel="shortcut icon" href="https://liziblog.github.io//favicon.ico">
+<title>
+    Hello Gridea | blog
+</title>
+<link rel="shortcut icon" href="https://liziblog.github.io//favicon.ico?v=1590061636254">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://liziblog.github.io//styles/main.css">
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://liziblog.github.io//media/js/jquery.sticky-sidebar.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
-<script src="https://liziblog.github.io//media/js/jquery.min.js"></script>
-<script src="https://liziblog.github.io//media/js/masonry.pkgd.min.js"></script>
-<script src="https://liziblog.github.io//media/js/aos.js"></script>
-<script src="https://liziblog.github.io//media/js/pace.min.js"></script>
-<script src="https://liziblog.github.io//media/js/view-image.min.js"></script>
-<script src="https://liziblog.github.io//media/js/jquery.magnific-popup.min.js"></script>
-<script src="https://liziblog.github.io//media/js/functions.js"></script>
-    <meta name="referrer" content="never">
-    <meta name="description" content="
-👏  欢迎使用 Gridea ！
-✍️  Gridea 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...
 
-Github
-Gridea 主页
-示例网站
-特性👇
-📝  你可以使用最酷的 Markd..." />
-    <meta name="keywords" content="Gridea" />
-    <script src="https://liziblog.github.io//media/js/waterfall.min.js"></script>
-    <script src="https://liziblog.github.io//media/js/prism.min.js"></script>
-  </head>
-  <body>
-            <header id="header" class="grid-container">
-        <!-- start: .menu-wrapper -->
-        <div class="menu-mobile"> 
-          <i class="fa fa-reorder"></i>
-        </div>
-        <div class="menu-wrapper">
-          <div class="">
-            <div class="logo">
-              <a href="https://liziblog.github.io/"><img src="/media/images/logoo.png" alt=""></a>
+    
+    
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    
+
+    
+    
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <a href="https://liziblog.github.io/">
+                <img class="avatar" src="https://liziblog.github.io//images/avatar.png?v=1590061636254" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    blog
+                </h1>
             </div>
-            <!-- start: .main-nav -->
-
-            <nav class="main-nav grid-container grid-parent">
-              <ul id="menu-header" class="menu gradient-effect">
-                <li class=""><a href="https://liziblog.github.io/" class="menu">首页</a></li>
-                
-                  <li class="" >
-                    <a href="/" class="menu">
-                      首页
-                    </a>
-                  </li>
-                
-                  <li class="" >
-                    <a href="/archives" class="menu">
-                      归档
-                    </a>
-                  </li>
-                
-                  <li class="" >
-                    <a href="/tags" class="menu">
-                      标签
-                    </a>
-                  </li>
-                
-                  <li class="" >
-                    <a href="https://liziblog.github.io//friends" class="menu">
-                      友链
-                    </a>
-                  </li>
-                
-                <li class="search-menu-item hide-on-mobile hide-on-tablet"><a href="#search-lightbox" class="lightbox mfp-inline"><i class="fa fa-search-line"></i></a></li>
-              </ul>
-            </nav>
-            <a href="#search-lightbox" class="lightbox epcl-search-button mfp-inline hide-on-tablet hide-on-desktop"><i class="fa fa-search-line"></i></a>
-            <!-- end: .main-nav -->
-            <div class="clear"></div>
-            <div class="border hide-on-tablet hide-on-mobile"></div>
-          </div>    
-          <div class="clear"></div>
         </div>
-        <!-- end: .menu-wrapper -->
-        <div class="clear"></div>
-      </header>
-      <div class="hide-on-mobile hide-on-tablet hide-on-desktop">
-        <div id="search-lightbox" class="grid-container grid-small grid-parent mfp-hide">
-          <div class="search-wrapper section">
-            <form id="gridea-search-form" data-update="1590061286172" action="/search/index.html" class="search-form" _lpchecked="1">
-              <input type="text" name="q" id="s" value="" class="search-field" placeholder="搜点啥..." aria-label="搜点啥..." required="">
-              <button type="submit" class="submit" aria-label="Submit">
-                <i class="fa fa-search-line"></i>
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
-
-      <main id="single" class="main grid-container fullcover no-sidebar aos-init aos-animate" data-aos="fade">
-
-        <div class="center content">
-          <div class="featured-image cover" style="background-image: url('https://liziblog.github.io//post-images/hello-gridea.jpg');">
-            <div class="meta top"> 
-              <time class="meta-info" style="float:left;" datetime="2018-12-12"><i class="fa fa-calendar"></i><span class="lately">1 年前</span></time>
-              
-              <a href="https://liziblog.github.io/post/hello-gridea/#comments" class="comments meta-info" title="">
-                <i class="fa fa-comment remixicon"></i><span class="comment-count valine-comment-count" data-xid="/hello-gridea/"> </span>
-              </a>
-              <span id="/hello-gridea/" class="leancloud_visitors views-counter meta-info" title=""><i class="fa fa-leancloud remixicon"></i><span class="leancloud-visitors-count"></span></span>
-              
-            </div>
-            <div class="info">
-              <div class="tags ">
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
                 
-                      <a href="https://liziblog.github.io/tag/-0qCC5qhH/" class="ctag ctag-0 ctag--0qCC5qhH" aria-label="">Gridea</a>
                     
-              </div>
-              <h1 class="title ularge white bold">Hello Gridea</h1>
-            </div>
-          </div>
-        </div>  
+                            <li>
+                                <a href="/" class="menu">
+                                    首页
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/archives" class="menu">
+                                    归档
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/tags" class="menu">
+                                    标签
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="https://liziblog.github.io//friends" class="menu">
+                                    友链
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
+        </div>
+    </div>
+</div>
 
-        <div class="epcl-page-wrapper">
-          <div class="left-content grid-70 np-mobile">
-            <article class="main-article post">
-              <section class="post-content">
-                <div class="text">
-                  <!-- more -->
+<script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
+
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
+
+        });
+    });
+</script>
+
+        <div id="main-content" class="post-detail main-container">
+            <!-- left -->
+            <div id="content" class="main-container-left">
+                <article class="post i-card">
+                    <h2 class="post-title">
+                        Hello Gridea
+                    </h2>
+                    <div class="post-info">
+                        <time class="post-time">2018-12-12</time>
+                        
+                        <a href="https://liziblog.github.io/tag/-0qCC5qhH/"
+                            class="post-tag i-tag
+                            i-tag-banana">
+                            #Gridea
+                        </a>
+                        
+                    </div>
+                    
+                    <div class="post-feature-image" style="background-image: url('https://liziblog.github.io//post-images/hello-gridea.jpg')"></div>
+                    
+                    <div class="post-content">
+                        <!-- more -->
 <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
 ✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
 <!-- more -->
@@ -147,215 +155,114 @@ Gridea 主页
 <p>尽情发挥你的才华吧！</p>
 <p>😘 Enjoy~</p>
 
-                </div>
-                <div class="clear"></div>
-              </section>
-            </article>
-            <div class="clear"></div>
-
-            <section class="related section">
-              
-              <article class="prev grid-50 tablet-grid-50 grid-parent">
-                <div class="thumb cover lazy loaded" style="background-image: url('https://liziblog.github.io//post-images/ssss.jpg');"></div>
-                 <a href="https://liziblog.github.io/post/ssss/" class="full-link"></a>
-                 <div class="info">
-                  <time datetime="2020-05-17">2020-05-17</time>
-                  <h4 class="title white no-margin">ssss</h4>
-                </div>
-                 <span class="epcl-button red">
-                  <img src="https://liziblog.github.io//media/images/left-arrow.svg" width="15" alt="Left Arrow">
-                </span>
-                <div class="overlay"></div>
-              </article>
-              
-              
-
-                <div class="clear"></div>
-            </section>
-
-              <div class="clear"></div>
-              
-            
-              <div id="comments" class="bg-white hosted ">
+                    </div>
+                </article>
+                <!--  -->
                 
-                  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
-<div class="clear"></div>
-
+                <div id="disqus_thread"></div>
+                <div id="gitalk-container"></div>
+                <div id="vcomments"></div>
+                <div class="site-footer">
+  我的：<a href="http://xiaoxiangcai.ccaeo.com" target="_blank">网盘</a> |
+  <a class="rss" href="https://liziblog.github.io//atom.xml" target="_blank">RSS</a>
+</div>
 <script>
-  var gitalk = new Gitalk({
-    clientID: 'f4528306d17e12742257',
-    clientSecret: '48a9619cfc05947304dcdf5a8b5fc1ea05064d29',
-    repo: 'liziblog.github.io',
-    owner: 'liziblog',
-    admin: ['liziblog'],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-
-  gitalk.render('gitalk-container')
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
 </script>
 
+            </div>
+            <!-- middle -->
+            <div class="main-container-middle"></div>
+            <!-- right -->
+            <div id="sidebar" class="main-container-right">
                 
+                <!-- toc -->
                 
-              </div>
+    <div class="toc-card i-card ">
+        <div class="toc-title i-card-title">目录</div>
+        <div class="toc-content">
+            <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E7%89%B9%E6%80%A7">特性👇</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        <script>
+            function locateCatelogList() {
+                /*获取文章目录集合,可通过:header过滤器*/
+                var alis = $('.post-content :header');
+                /*获取侧边栏目录列表集合**/
+                var sidebar_alis = $('.markdownIt-TOC a');
+                /*获取滚动条到顶部的距离*/
+                var scroll_height = $(window).scrollTop();
+                for (var i = 0; i < alis.length; i++) {
+                    /*获取锚点集合中的元素分别到顶点的距离*/
+                    var a_height = $(alis[i]).offset().top;
+                    if (a_height < scroll_height) {
+                        /*高亮显示*/
+                        sidebar_alis.removeClass('on');
+                        $(sidebar_alis[i]).addClass('on');
+                    }
+                }
+            }
+            $(function() {
+                /*绑定滚动事件 */
+                $(window).bind('scroll', locateCatelogList);
+            });
+        </script>
+    </div>
+    
+                
+
+                </div>
+            </div>
+
+            </div>
+            <script>
+                $('#sidebar').stickySidebar({
+                    topSpacing: 80,
+                    // bottomSpacing: 60
+                });
+            </script>
+            <!-- ?????? -->
+            <script>
+                hljs.initHighlightingOnLoad()
+              </script>
+            
+            
+            <script>
+    window.onload = function() {
+        var gitalk = new Gitalk({
+            clientID: 'f4528306d17e12742257',
+            clientSecret: '48a9619cfc05947304dcdf5a8b5fc1ea05064d29',
+            repo: 'liziblog.github.io',
+            owner: 'liziblog',
+            admin: ['liziblog'],
+            id: (location.pathname).substring(0, 49), // Ensure uniqueness and length less than 50
+            distractionFreeMode: false // Facebook-like distraction free mode
+        })
+
+        gitalk.render('gitalk-container')
+    }
+</script>
             
 
-            </div>
-          </div>
-      </main>
+            
+            
+</body>
 
-          <footer id="footer" class="grid-container">
-        <div class="widgets row gradient-effect">
-            <div class="default-sidebar border-effect">
-              <div class="grid-33 tablet-grid-50 mobile-grid-100">
-                <section id="tag_cloud-2" class="widget widget_epcl_posts_thumbs underline-effect">
-                  <h4 class="widget-title title white bordered">最新文章</h4>
-                  
-                  
-                  <article class="item post-0 post type-post status-publish format-standard has-post-thumbnail hentry">
-                    <a href="https://liziblog.github.io/post/nuo-wei-de-sen-lin/" class="thumb hover-effect">
-                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('/media/images/gridea.jpg');"></span>
-                    </a>
-                    <div class="info gradient-effect">
-                      <time datetime="2020-05-20">2020-05-20</time>
-                      <h4 class="title usmall">
-                        <a href="https://liziblog.github.io/post/nuo-wei-de-sen-lin/">挪威的森林</a>
-                      </h4>
-                    </div>
-                    <div class="clear"></div>
-                  </article>
-                  
-                  
-                  
-                  <article class="item post-1 post type-post status-publish format-standard has-post-thumbnail hentry">
-                    <a href="https://liziblog.github.io/post/rss/" class="thumb hover-effect">
-                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('https://liziblog.github.io//post-images/rss.jpg');"></span>
-                    </a>
-                    <div class="info gradient-effect">
-                      <time datetime="2020-05-20">2020-05-20</time>
-                      <h4 class="title usmall">
-                        <a href="https://liziblog.github.io/post/rss/">rss</a>
-                      </h4>
-                    </div>
-                    <div class="clear"></div>
-                  </article>
-                  
-                  
-                  
-                  <article class="item post-2 post type-post status-publish format-standard has-post-thumbnail hentry">
-                    <a href="https://liziblog.github.io/post/wang-yi-yun-yin-le-wai-lian/" class="thumb hover-effect">
-                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('https://liziblog.github.io//post-images/wang-yi-yun-yin-le-wai-lian.jpg');"></span>
-                    </a>
-                    <div class="info gradient-effect">
-                      <time datetime="2020-05-20">2020-05-20</time>
-                      <h4 class="title usmall">
-                        <a href="https://liziblog.github.io/post/wang-yi-yun-yin-le-wai-lian/">网易云音乐外链</a>
-                      </h4>
-                    </div>
-                    <div class="clear"></div>
-                  </article>
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  <div class="clear"></div>
-                </section>
-              </div>
-
-              <div class="grid-33 tablet-grid-50 mobile-grid-100">
-                <section id="tag_cloud-2" class="widget widget_tag_cloud underline-effect">
-                  <h4 class="widget-title title white bordered">标签云</h4>
-                  <div class="tagcloud">
-                    
-                      <a href="https://liziblog.github.io/tag/1TnaY7hne9/" class="ctag ctag-0 ctag-1TnaY7hne9" aria-label="">分享</a>
-                    
-                      <a href="https://liziblog.github.io/tag/ZvSXl3eON/" class="ctag ctag-1 ctag-ZvSXl3eON" aria-label="">摘选</a>
-                    
-                      <a href="https://liziblog.github.io/tag/nz61yI4-b/" class="ctag ctag-2 ctag-nz61yI4-b" aria-label="">曾经</a>
-                    
-                      <a href="https://liziblog.github.io/tag/GsBZ2721xJ/" class="ctag ctag-3 ctag-GsBZ2721xJ" aria-label="">文集</a>
-                    
-                      <a href="https://liziblog.github.io/tag/jN78GY4cX/" class="ctag ctag-4 ctag-jN78GY4cX" aria-label="">账号</a>
-                    
-                      <a href="https://liziblog.github.io/tag/-0qCC5qhH/" class="ctag ctag-5 ctag--0qCC5qhH" aria-label="">Gridea</a>
-                    
-                  </div>
-                  <div class="clear"></div>
-                </section>
-              </div>
-
-              <div class="grid-33 tablet-grid-50 mobile-grid-100">
-                <section id="epcl_about-2" class="widget widget_epcl_about underline-effect">
-                  <h4 class="widget-title title white bordered">关于我</h4>
-                  <div class="avatar">
-                    <a href="" class="translate-effect thumb"><span class="fullimage cover" style="background-image: url(https://liziblog.github.io//images/avatar.png);"></span></a>
-                  </div>
-                  <div class="info">
-                    <h4 class="title small author-name gradient-effect no-margin"><a href="">blog</a></h4>
-                    <p class="founder">小王blog</p>
-                    <div class="social">
-                      
-                        
-                      
-                        
-                      
-                        
-                      
-                        
-                      
-                        
-                      
-                    </div> 
-                  </div>
-                  <div class="clear"></div>
-                  </section>
-              </div>
-
-            </div>
-            <div class="clear"></div>
-        </div>
-
-        <div class="logo">
-          <a href="https://liziblog.github.io/"><img src="/media/images/gridea.png" alt=""></a>
-        </div>
-        <p class="published border-effect">
-          ©2019 共 12 篇文章
-          <br/>
-          Theme <a href="https://gridea.dev/" target="_blank">「breek」</a> Powered by <a href="https://gridea.dev/" target="_blank">「Gridea」</a>
-        </p>
-        
-        <a href="javascript:void(0)" id="back-to-top" class="epcl-button dark" style="display:none">
-          <i class="fa fa-arrow"></i>
-        </a>
-    </footer>
-    
-    <div class="clear"></div>
-
-        
-
-      
-    <script src="https://liziblog.github.io//media/js/functions-post.js"></script>
-
-    </div>
-    <!-- end: #wrapper -->
-  </body>
 </html>
