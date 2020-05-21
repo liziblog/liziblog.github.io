@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liziblog.github.io/</id>
     <title>blog</title>
-    <updated>2020-05-21T12:33:38.303Z</updated>
+    <updated>2020-05-21T13:30:39.873Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liziblog.github.io/"/>
     <link rel="self" href="https://liziblog.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://liziblog.github.io/images/avatar.png</logo>
     <icon>https://liziblog.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, blog</rights>
+    <entry>
+        <title type="html"><![CDATA[虾米]]></title>
+        <id>https://liziblog.github.io/post/xia-mi/</id>
+        <link href="https://liziblog.github.io/post/xia-mi/">
+        </link>
+        <updated>2020-05-21T13:28:46.000Z</updated>
+        <content type="html"><![CDATA[<p>虾米你真好！</p>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="750" height="110" loading="lazy" sandbox="allow-popups allow-scripts allow-same-origin" src="https://www.xiami.com/webapp/embed-player?autoPlay=1&id=1795530800"></iframe>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[test]]></title>
         <id>https://liziblog.github.io/post/test/</id>
@@ -41,7 +50,9 @@ apple music:</p>
  3：&lt;embed border=&quot;0&quot; 
  marginwidth=&quot;0&quot; marginheight=&quot;0&quot; 
  width=&quot;250&quot; height=&quot;52&quot; 
- src=&quot;//music.163.com/outchain/player?type=0&amp;amp;id=1569141203&amp;amp;auto=1&amp;amp;height=32&quot;&gt;</code></pre>
+ src=&quot;//music.163.com/outchain/player?type=0&amp;amp;id=1569141203&amp;amp;auto=1&amp;amp;height=32&quot;&gt;
+
+ **虾米我爱你**&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;750&quot; height=&quot;110&quot; loading=&quot;lazy&quot; sandbox=&quot;allow-popups allow-scripts allow-same-origin&quot; src=&quot;https://www.xiami.com/webapp/embed-player?autoPlay=1&amp;id=59457&quot;&gt;&lt;/iframe&gt;</code></pre>
 ]]></content>
     </entry>
     <entry>
@@ -206,21 +217,6 @@ for i in range(15):
 2:  <a href="https://youtu.be/eEDmZlVCCzc?t=3%3E">直达</a><br>
 3:<video><source src="http://xiaoxiangcai.ccaeo.com/?/%E7%94%B5%E5%BD%B1/%E6%A0%B7%E6%9C%AC%E7%B4%A0%E6%9D%90.mp4" type="video/mp4"></video></p>
 <p><strong>3:这个是md</strong></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[炫猿导航]]></title>
-        <id>https://liziblog.github.io/post/xuan-yuan-dao-hang/</id>
-        <link href="https://liziblog.github.io/post/xuan-yuan-dao-hang/">
-        </link>
-        <updated>2020-05-18T00:09:26.000Z</updated>
-        <content type="html"><![CDATA[<p>##一个在线的导航站<br>
-特点：支持自定义导航栏内容，可作为一个在线书签使用。几个月前还蛮火的。</p>
-<p>##分享几个炫猿的账号<br>
-#porbhub🤠这个是恶趣味抢注的！<br>
-#52xiao<br>
-#mumu123</p>
-<p>##这几个密码都是：1269116053</p>
 ]]></content>
     </entry>
 </feed>
