@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liziblog.github.io/</id>
     <title>blog</title>
-    <updated>2020-05-21T11:53:49.007Z</updated>
+    <updated>2020-05-21T12:08:52.230Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liziblog.github.io/"/>
     <link rel="self" href="https://liziblog.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://liziblog.github.io/images/avatar.png</logo>
     <icon>https://liziblog.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, blog</rights>
+    <entry>
+        <title type="html"><![CDATA[test]]></title>
+        <id>https://liziblog.github.io/post/test/</id>
+        <link href="https://liziblog.github.io/post/test/">
+        </link>
+        <updated>2020-05-21T12:08:39.000Z</updated>
+        <content type="html"><![CDATA[<p>&lt;EMBED src= http://music.163.com/song/157288/?userid=1569141203width=300 height=45 type=audio/mpeg loop=&quot;-1&quot; autostart=&quot;false&quot; volume=&quot;0&quot;&gt;</EMBED></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[挪威的森林]]></title>
         <id>https://liziblog.github.io/post/nuo-wei-de-sen-lin/</id>
@@ -210,16 +219,6 @@ for i in range(15):
 #52xiao<br>
 #mumu123</p>
 <p>##这几个密码都是：1269116053</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[视频测试站]]></title>
-        <id>https://liziblog.github.io/post/shi-pin-ce-shi-zhan/</id>
-        <link href="https://liziblog.github.io/post/shi-pin-ce-shi-zhan/">
-        </link>
-        <updated>2020-05-17T09:54:41.000Z</updated>
-        <content type="html"><![CDATA[<p>以下是md的视频引用：看见则为成功，反正则为失败 。。。<br>
-<video><source src="http://xiaoxiangcai.ccaeo.com/?/%E7%94%B5%E5%BD%B1/%E6%A0%B7%E6%9C%AC%E7%B4%A0%E6%9D%90.mp4" type="video/mp4"></video></p>
 ]]></content>
     </entry>
 </feed>

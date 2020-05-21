@@ -1,155 +1,237 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
- <head>
-     <meta charset="utf-8" />
-  <title>test | blog</title>
-  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
-  <link rel="stylesheet" href="https://liziblog.github.io//styles/main.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-   <script src="https://cdn.staticfile.org/highlight.js/9.15.9/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
- </head>
- <body>
-     <div class="sidebar animated fadeInDown">
-   <div class="logo-title">
-    <div class="title">
-     <img src="https://liziblog.github.io//images/avatar.png?v=1589702306269" style="width:127px;" />
+<html>
 
-     <div class="description">
-      <p>我的小博客</p>
-     </div>
-    </div>
-   </div>
-   <ul class="social-links">
+<head>
+    <!-- 防止浏览器缓存 -->
+<meta http-equiv="pragma" content="no-cache"> 
+<meta http-equiv="Cache-Control" content="no-cache, must-revalidate"> 
+<meta http-equiv="expires" content="Wed, 26 Feb 1997 08:21:57 GMT">
+
+<!-- ?????? -->
+    
+        <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/highlight.min.js"></script>
+        <link rel="stylesheet" href=".prettyprint,pre.prettyprint {     background:#fff;     background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);     border:1px dashed #ccc; } .prettyprint:hover,pre.prettyprint:hover {     background:#fafafa;     background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);     border:1px dashed #0088cc; } .prettyprint.linenums,pre.prettyprint.linenums {     -webkit-box-shadow:none;     box-shadow:none;     border-radius:0; } .prettyprint.linenums,pre.prettyprint.linenums .linenums{     background-color:#fafafa; } .prettyprint.linenums ol,pre.prettyprint.linenums ol {     counter-reset: my-counter; } .prettyprint .pun,.prettyprint .opn,.prettyprint .clo {     color:#ccc; } .prettyprint .typ,.prettyprint .atn,.prettyprint .dec,.prettyprint .var {     color:#090; } .prettyprint .lit {     color:#f15a22; } .prettyprint .com {     color:#694d9f; } .prettyprint .pln {     color:#09a; } .prettyprint .pun {     color:#ef5b9c; } .prettyprint.linenums ol li,pre.prettyprint.linenums ol li{     list-style: none;     margin:6px 0px;     padding-left:19px; } .prettyprint.linenums ol li:before,pre.prettyprint.linenums ol li:before{     content: counter(my-counter);     counter-increment: my-counter;     background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);     color: white;     display: block;     float: left;     line-height: 22px;     margin-left: -30px;     text-align: center;     height: 22px;     width: 22px;     border-radius: 50%;     font-size:12px; } ">
+        
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+    test | blog
+</title>
+<link rel="shortcut icon" href="https://liziblog.github.io//favicon.ico?v=1590062928847">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://liziblog.github.io//styles/main.css">
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://liziblog.github.io//media/js/jquery.sticky-sidebar.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
     
-
+    
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
     
 
     
-
     
+</head>
 
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-   </ul>
-   <div class="footer">
-    <div class="by_farbox">
-   @<a href="http://xiaoxiangcai.ccaeo.com" target="_blank">me</a>
-    </div>
-    
-
-    </div>
-   </div>
-  </div>
-  <div class="main">
-     <div class="page-top animated fadeInDown">
+<body>
+    <div class="main">
+        <div class="header">
     <div class="nav">
-    
-     <li><a  href="/">首页</a></li>
-
-     <li><a  href="/archives">归档</a></li>
-
-     <li><a  href="/tags">标签</a></li>
-
-     <li><a  href="http://xiaoxiangcai.ccaeo.com/">网盘</a></li>
-
-    </div>
-    <div class="information">
-     <div class="back_btn">
-      <li><a class="fa fa-chevron-left" onclick="window.history.go(-1)"> </a></li>
-     </div>
-    </div>
-   </div>
-   <div class="autopagerize_page_element">
-    <div class="content">
-     <div class="post-page">
-      <div class="post animated fadeInDown">
-       <div class="post-title">
-        <h3><a>test</a></h3>
-       </div>
-       <div class="post-content">
-        <p>test book<br>
-<img src='http://xiaoxiangcai.ccaeo.com/?/%E7%85%A7%E7%89%87/0dcd857a30ec80a41cad783218ec9848.jpg' /></p>
-
-       </div>
-       <div class="post-footer">
-        <div class="meta">
-         <div class="info">
-          <i class="fa fa-sun-o"></i>
-          <span class="date">2020-05-17</span>
-          <i class="fa fa-tag"></i>
-          
-         </div>
+        <div class="logo">
+            <a href="https://liziblog.github.io/">
+                <img class="avatar" src="https://liziblog.github.io//images/avatar.png?v=1590062928847" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    blog
+                </h1>
+            </div>
         </div>
-       </div>
-      </div>
-      <div class="share">
-       <div class="evernote">
-        <a class="fa fa-bookmark" href="javascript:(function(){EN_CLIP_HOST='http://www.evernote.com';try{var%20x=document.createElement('SCRIPT');x.type='text/javascript';x.src=EN_CLIP_HOST+'/public/bookmarkClipper.js?'+(new%20Date().getTime()/100000);document.getElementsByTagName('head')[0].appendChild(x);}catch(e){location.href=EN_CLIP_HOST+'/clip.action?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title);}})();" ref="nofollow" target="_blank"></a>
-       </div>
-       <div class="weibo">
-        <a class="fa fa-weibo" href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&amp;title=',e(d.title),'&amp;appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));"></a>
-       </div>
-       <div class="twitter">
-        <a class="fa fa-twitter" href="http://twitter.com/home?status=,https://liziblog.github.io/post/test/,;"></a>
-       </div>
-      </div>
-      <div class="pagination">
-       <ul class="clearfix">
-
-        <li class="pre pagbuttons"><a class="btn" role="navigation" href="https://liziblog.github.io/post/ssss/" title="ssss">上一篇</a></li>
-         
-        
-        <li class="next pagbuttons"><a class="btn" role="navigation" href="https://liziblog.github.io/post/hello-gridea/" title=" Hello Gridea">下一篇</a></li>
-        
-       </ul>
-      </div>
-        
-          
-            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
+                
+                    
+                            <li>
+                                <a href="/" class="menu">
+                                    首页
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/archives" class="menu">
+                                    归档
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/tags" class="menu">
+                                    标签
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="https://liziblog.github.io//friends" class="menu">
+                                    友链
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
+        </div>
+    </div>
+</div>
 
 <script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
 
-  var gitalk = new Gitalk({
-    clientID: 'f4528306d17e12742257',
-    clientSecret: '48a9619cfc05947304dcdf5a8b5fc1ea05064d29',
-    repo: 'liziblog.github.io',
-    owner: 'liziblog',
-    admin: ['liziblog'],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
 
-  gitalk.render('gitalk-container')
-
+        });
+    });
 </script>
 
-          
-          
-        
-     </div>
+        <div id="main-content" class="post-detail main-container">
+            <!-- left -->
+            <div id="content" class="main-container-left">
+                <article class="post i-card">
+                    <h2 class="post-title">
+                        test
+                    </h2>
+                    <div class="post-info">
+                        <time class="post-time">2020-05-21</time>
+                        
+                    </div>
+                    
+                    <div class="post-content">
+                        <p>&lt;EMBED src= http://music.163.com/song/157288/?userid=1569141203width=300 height=45 type=audio/mpeg loop=&quot;-1&quot; autostart=&quot;false&quot; volume=&quot;0&quot;&gt;</EMBED></p>
+
+                    </div>
+                </article>
+                <!--  -->
+                
+                <div class="next-post">
+                    <div class="next">下一篇</div>
+                    <a href="https://liziblog.github.io/post/nuo-wei-de-sen-lin/">
+                        <h3 class="post-title">
+                            挪威的森林
+                        </h3>
+                    </a>
+                </div>
+                
+                <div id="disqus_thread"></div>
+                <div id="gitalk-container"></div>
+                <div id="vcomments"></div>
+                <div class="site-footer">
+  我的：<a href="http://xiaoxiangcai.ccaeo.com" target="_blank">网盘</a> |
+  <a class="rss" href="https://liziblog.github.io//atom.xml" target="_blank">RSS</a>
+</div>
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+            </div>
+            <!-- middle -->
+            <div class="main-container-middle"></div>
+            <!-- right -->
+            <div id="sidebar" class="main-container-right">
+                
+                <!-- id-card -->
+                
+    <div class="id_card i-card">
+        <div class="id_card-avatar" style="background-image: url(https://liziblog.github.io//images/avatar.png?v=1590062928847)">
+        </div>
+        <h1 class="id_card-title">
+            blog
+        </h1>
+        <h2 class="id_card-description">
+            小王blog
+        </h2>
+        <!--  -->
+        <div class="id_card-sns">
+            <!-- github -->
+            
+                    <!-- twitter -->
+                    
+                            <!-- weibo -->
+                            
+                                <a href="https://weibo.com/u/6882609807?source=blog" target="_blank" rel="noopener noreferrer"><i
+                class="fa fa-weibo"></i></a>
+                                
+                                    <!-- facebook -->
+                                    
+
+        </div>
     </div>
-   </div>
-  </div>
-  <script src="https://liziblog.github.io//media/scripts/jquery.js"></script>
-  <script src="https://liziblog.github.io//media/scripts/jquery-migrate-1.2.1.min.js"></script>
-  <script src="https://liziblog.github.io//media/scripts/jquery.appear.js"></script>
+    
+                
 
+                </div>
+            </div>
 
- </body>
+            </div>
+            <script>
+                $('#sidebar').stickySidebar({
+                    topSpacing: 80,
+                    // bottomSpacing: 60
+                });
+            </script>
+            <!-- ?????? -->
+            <script>
+                hljs.initHighlightingOnLoad()
+              </script>
+            
+            
+            <script>
+    window.onload = function() {
+        var gitalk = new Gitalk({
+            clientID: 'f4528306d17e12742257',
+            clientSecret: '48a9619cfc05947304dcdf5a8b5fc1ea05064d29',
+            repo: 'liziblog.github.io',
+            owner: 'liziblog',
+            admin: ['liziblog'],
+            id: (location.pathname).substring(0, 49), // Ensure uniqueness and length less than 50
+            distractionFreeMode: false // Facebook-like distraction free mode
+        })
+
+        gitalk.render('gitalk-container')
+    }
+</script>
+            
+
+            
+            
+</body>
+
 </html>
