@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liziblog.github.io/</id>
     <title>blog</title>
-    <updated>2020-05-20T12:51:15.286Z</updated>
+    <updated>2020-05-21T03:50:33.180Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liziblog.github.io/"/>
     <link rel="self" href="https://liziblog.github.io/atom.xml"/>
@@ -18,8 +18,8 @@
         <updated>2020-05-20T12:33:18.000Z</updated>
         <content type="html"><![CDATA[<p><strong>挪威的森林</strong><br>
 apple music:</p>
-<p><a href="https://geo.music.apple.com/cn/album/%E6%8C%AA%E5%A8%81%E7%9A%84%E6%A3%AE%E6%9E%97/156141637?i=156141694&mt=1&app=music&ls=1" style="display:inline-block;overflow:hidden;background:url(https://tools.applemusic.com/en-us/lockup.svg?releaseDate=1996-05-24&kind=song&bubble=apple_music&style=standard-black) no-repeat;width:660px;height:150px;"></a></p>
-<p>网易云：</p>
+<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/cn/album/%E6%8C%AA%E5%A8%81%E7%9A%84%E6%A3%AE%E6%9E%97/156141637?i=156141694"></iframe>
+网易云：
 <p><embed border="0" 
      marginwidth="0" marginheight="0" 
      width="250" height="52" 
