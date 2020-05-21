@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liziblog.github.io/</id>
     <title>blog</title>
-    <updated>2020-05-21T13:42:29.466Z</updated>
+    <updated>2020-05-21T13:53:32.960Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liziblog.github.io/"/>
     <link rel="self" href="https://liziblog.github.io/atom.xml"/>
@@ -16,7 +16,13 @@
         <link href="https://liziblog.github.io/post/zou-guo-shi-jie-mei-ge-jiao-luo/">
         </link>
         <updated>2020-05-21T13:42:03.000Z</updated>
-        <content type="html"><![CDATA[<p><embed src="//player.video.iqiyi.com/71564129fc559fb3a0580170592f347e/0/0/v_19rstcow20.swf-albumId=6375096100-tvId=6375096100-isPurchase=0-cnId=undefined" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed></p>
+        <content type="html"><![CDATA[<p><strong>qiy____laji.有广告</strong><br>
+<embed src="//player.video.iqiyi.com/71564129fc559fb3a0580170592f347e/0/0/v_19rstcow20.swf-albumId=6375096100-tvId=6375096100-isPurchase=0-cnId=undefined" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed></p>
+<p><strong>bilibili</strong></p>
+<iframe src="//player.bilibili.com/player.html?aid=66510842&bvid=BV1Z441117vV&cid=115348058&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<p><strong>acfun</strong></p>
+<iframe style="min-width: 500px;min-height: 300px"   src="https://www.acfun.cn/player/ac10862309" id="ACPlayer-re"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<p><font color=blue>好多视频网站都是支持内嵌代码的</font></p>
 ]]></content>
     </entry>
     <entry>
