@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liziblog.github.io/</id>
     <title>blog</title>
-    <updated>2020-05-23T13:50:17.113Z</updated>
+    <updated>2020-05-24T13:56:52.094Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liziblog.github.io/"/>
     <link rel="self" href="https://liziblog.github.io/atom.xml"/>
@@ -10,6 +10,100 @@
     <logo>https://liziblog.github.io/images/avatar.png</logo>
     <icon>https://liziblog.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, blog</rights>
+    <entry>
+        <title type="html"><![CDATA[陈韵如小诗（其三）]]></title>
+        <id>https://liziblog.github.io/post/chen-yun-ru-xiao-shi-qi-san/</id>
+        <link href="https://liziblog.github.io/post/chen-yun-ru-xiao-shi-qi-san/">
+        </link>
+        <updated>2020-05-24T13:39:13.000Z</updated>
+        <content type="html"><![CDATA[<p>阳光很刺眼</p>
+<p>可我却宁愿眯起了眼</p>
+<p>却也舍不得闭上眼</p>
+<p>不去看他</p>
+<p><img src="https://liziblog.github.io//post-images/1590328574355.png" alt="" loading="lazy"><br>
+<img src="https://liziblog.github.io//post-images/1590328600072.png" alt="" loading="lazy"><br>
+<strong>三首均摘自台剧《想见你》</strong></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[陈韵如小诗（其二）]]></title>
+        <id>https://liziblog.github.io/post/chen-yun-ru-xiao-shi-qi-er/</id>
+        <link href="https://liziblog.github.io/post/chen-yun-ru-xiao-shi-qi-er/">
+        </link>
+        <updated>2020-05-24T13:36:37.000Z</updated>
+        <content type="html"><![CDATA[<p>有时候</p>
+<p>我觉得自己是宇宙中最黯淡的那颗星</p>
+<p>拼命的发光</p>
+<p>想要有人发现我渺小的存在</p>
+<p>可是最后等待我的</p>
+<p>却只有坠落</p>
+<p>殒落的那刻</p>
+<p>我知道</p>
+<p>世界上没有人记得我</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[陈韵如小诗（其一）]]></title>
+        <id>https://liziblog.github.io/post/chen-yun-ru-xiao-shi-qi-yi/</id>
+        <link href="https://liziblog.github.io/post/chen-yun-ru-xiao-shi-qi-yi/">
+        </link>
+        <updated>2020-05-24T13:31:04.000Z</updated>
+        <content type="html"><![CDATA[<p>我在遺憾的青春中漸漸凋零</p>
+<p>我在失落的荒原中學會了哭泣</p>
+<p>我在扮演自己的過程中丟棄了我自己</p>
+<p>我在心裏最深處那關著燈的房間</p>
+<p>吟唱著只有才能擁抱的情歌</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[想见你]]></title>
+        <id>https://liziblog.github.io/post/xiang-jian-ni/</id>
+        <link href="https://liziblog.github.io/post/xiang-jian-ni/">
+        </link>
+        <updated>2020-05-24T13:20:31.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<p><strong>《想见你》开头小句子，作此总结！</strong></p>
+<blockquote>
+<p>01想念离我如此之近，才发现你多遥不可及</p>
+</blockquote>
+<blockquote>
+<p>02你的出现，就足够占据我余生的那些年</p>
+</blockquote>
+<blockquote>
+<p>03失去了你的时间里面，我的世界从未往前</p>
+</blockquote>
+<blockquote>
+<p>04所有的离别，都是我在练习失去你</p>
+</blockquote>
+<blockquote>
+<p>05要我怎么穿越时间，重新和你相识一遍</p>
+</blockquote>
+<blockquote>
+<p>06在想念的时候，就把温柔的自己都用完了</p>
+</blockquote>
+<blockquote>
+<p>07慢慢把自己搁浅在无法拼凑的昨天</p>
+</blockquote>
+<blockquote>
+<p>08有些喜欢能够穿越时间，依然来到你面前</p>
+</blockquote>
+<blockquote>
+<p>09你一不小心，就掉落进我的梦里</p>
+</blockquote>
+<blockquote>
+<p>10我宁愿这样记得，你从未离开过我的世界</p>
+</blockquote>
+<blockquote>
+<p>11如果我不再如初，你是否会爱我如故</p>
+</blockquote>
+<blockquote>
+<p>12借我一点你的时光，许我一点美好难忘</p>
+</blockquote>
+<blockquote>
+<p>13也不是所有碎片都能拼凑，就像那些昨天无法重新拥有。</p>
+</blockquote>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[愿与执手立黄昏， 愿与品茗粥尚温]]></title>
         <id>https://liziblog.github.io/post/yuan-yu-zhi-shou-li-huang-hun-yuan-yu-pin-ming-zhou-shang-wen/</id>
@@ -240,96 +334,6 @@ overflow: hidden; line-height: 0;" class="mce_SELRES_start"></span>
 marginwidth=&quot;0&quot; marginheight=&quot;0&quot;<br>
 width=&quot;250&quot; height=&quot;52&quot;<br>
 src=//music.163.com/song/157288/?userid=1569141203&quot;&amp;auto=1&amp;height=32&quot;&gt;</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[挪威的森林]]></title>
-        <id>https://liziblog.github.io/post/nuo-wei-de-sen-lin/</id>
-        <link href="https://liziblog.github.io/post/nuo-wei-de-sen-lin/">
-        </link>
-        <updated>2020-05-20T12:33:18.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>挪威的森林</strong><br>
-apple music:</p>
-<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/cn/album/%E6%8C%AA%E5%A8%81%E7%9A%84%E6%A3%AE%E6%9E%97/156141637?i=156141694"></iframe>
-网易云：
-<p><embed border="0" 
-     marginwidth="0" marginheight="0" 
-     width="250" height="52" 
-     src="//music.163.com/outchain/player?type=0&amp;id=157288&amp;auto=1&amp;height=32"></p>
-<pre><code> 2：http://music.163.com/song/media/outer/url?id=317151.mp3
-
- 3：&lt;embed border=&quot;0&quot; 
- marginwidth=&quot;0&quot; marginheight=&quot;0&quot; 
- width=&quot;250&quot; height=&quot;52&quot; 
- src=&quot;//music.163.com/outchain/player?type=0&amp;amp;id=1569141203&amp;amp;auto=1&amp;amp;height=32&quot;&gt;
-
- **虾米我爱你**&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;750&quot; height=&quot;110&quot; loading=&quot;lazy&quot; sandbox=&quot;allow-popups allow-scripts allow-same-origin&quot; src=&quot;https://www.xiami.com/webapp/embed-player?autoPlay=1&amp;id=59457&quot;&gt;&lt;/iframe&gt;</code></pre>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[rss]]></title>
-        <id>https://liziblog.github.io/post/rss/</id>
-        <link href="https://liziblog.github.io/post/rss/">
-        </link>
-        <updated>2020-05-20T06:55:15.000Z</updated>
-        <content type="html"><![CDATA[<p>#rsshub虽然dns被污染了，但还是能用的，今天下午发现了两个大佬分享的rsshub的订阅地址。<br>
-##使用方法：把订阅链接里的rsshub.app改了就行了。<br>
-##两个域名：rsshub.ioiox.com<br>
-rss.shab.fun<br>
-###原文：<a href="https://www.coolapk.com/feed/16627671?shareKey=ZjA3Y2MxMWJhNDJiNWVjNGQ1OWQ~&amp;shareUid=2782926&amp;shareFrom=com.coolapk.market_10.0.4-beta">酷安</a><br>
-<a href="https://www.ioiox.com/page/1/">博客</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[网易云音乐外链]]></title>
-        <id>https://liziblog.github.io/post/wang-yi-yun-yin-le-wai-lian/</id>
-        <link href="https://liziblog.github.io/post/wang-yi-yun-yin-le-wai-lian/">
-        </link>
-        <updated>2020-05-20T03:52:59.000Z</updated>
-        <content type="html"><![CDATA[<p>1：有播放列表</p>
-<iframe frameborder="0" border="1"             
- 　　marginwidth="0" marginheight="0"            
- 　　width="100%" height="360"             
- 　　src="//music.163.com/outchain/player?type=2&amp;id=2512690504&amp;auto=1&amp;height=80">
-</iframe>
-<pre><code>&lt;iframe frameborder=&quot;0&quot; border=&quot;1&quot;             
- 　　marginwidth=&quot;0&quot; marginheight=&quot;0&quot;            
- 　　width=&quot;100%&quot; height=&quot;360&quot;             
- 　　src=&quot;//music.163.com/outchain/player?type=2&amp;amp;id=2512690504&amp;amp;auto=1&amp;amp;height=80&quot;&gt;
-&lt;/iframe&gt;
-</code></pre>
-<p>2：无播放列表</p>
-<p><embed border="0" 
-     marginwidth="0" marginheight="0" 
-     width="250" height="52" 
-     src="//music.163.com/outchain/player?type=0&amp;id=1388544715&amp;auto=1&amp;height=32"></p>
-<pre><code>&lt;iframe frameborder=&quot;0&quot; border=&quot;1&quot;        
- 　marginwidth=&quot;0&quot; marginheight=&quot;0&quot;            
- 　width=250height=62
- 　src=&quot;//music.163.com/outchain/player?type=2&amp;id=464916877&amp;auto=1&amp;height=60&quot;&gt;
-&lt;/iframe&gt;
-</code></pre>
-<p>3：用embed实现。</p>
-<p><embed border="0" 
-     marginwidth="0" marginheight="0" 
-     width="250" height="52" 
-     src="//music.163.com/outchain/player?type=0&amp;id=2512690504&amp;auto=1&amp;height=32"></p>
-<pre><code>&lt;embed border=&quot;0&quot; 
-     marginwidth=&quot;0&quot; marginheight=&quot;0&quot; 
-     width=&quot;250&quot; height=&quot;52&quot; 
-     src=&quot;//music.163.com/outchain/player?type=0&amp;amp;id=2512690504&amp;amp;auto=1&amp;amp;height=32&quot;&gt;
-
-</code></pre>
-<p>改ID即可使用。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[音乐]]></title>
-        <id>https://liziblog.github.io/post/yin-le/</id>
-        <link href="https://liziblog.github.io/post/yin-le/">
-        </link>
-        <updated>2020-05-20T03:13:27.000Z</updated>
-        <content type="html"><![CDATA[<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/the-goat/1511793475?app=music"></iframe>
 ]]></content>
     </entry>
 </feed>
