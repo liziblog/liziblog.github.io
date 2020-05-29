@@ -16,7 +16,7 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>
-    挪威的森林 | blog
+    py实验报告 | blog
 </title>
 <link rel="shortcut icon" href="https://liziblog.github.io//favicon.ico?v=1590745864632">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
@@ -116,32 +116,95 @@
             <div id="content" class="main-container-left">
                 <article class="post i-card">
                     <h2 class="post-title">
-                        挪威的森林
+                        py实验报告
                     </h2>
                     <div class="post-info">
-                        <time class="post-time">2020-05-20</time>
+                        <time class="post-time">2020-05-29</time>
                         
                     </div>
                     
-                    <div class="post-feature-image" style="background-image: url('https://liziblog.github.io//post-images/nuo-wei-de-sen-lin.jpg')"></div>
-                    
                     <div class="post-content">
-                        <p><strong>挪威的森林</strong><br>
-apple music:</p>
-<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/cn/album/%E6%8C%AA%E5%A8%81%E7%9A%84%E6%A3%AE%E6%9E%97/156141637?i=156141694"></iframe>
-网易云：
-<p><embed border="0" 
-     marginwidth="0" marginheight="0" 
-     width="250" height="52" 
-     src="//music.163.com/outchain/player?type=0&amp;id=157288&amp;auto=1&amp;height=32"></p>
-<pre><code> 2：http://music.163.com/song/media/outer/url?id=317151.mp3
+                        <p><strong>起因</strong>因需要写py实验报告，所以将所需实验代码扔在这，做个备份吧！<br>
+part1:</p>
+<pre><code>TempStr=input(&quot;请输入一个带有符号的温度值(82F)：&quot;)
+if TempStr[-1] in ['C','c']:
+    f=(eval(TempStr[:-1]))*1.8+32
+    print(&quot;{:.2f}F&quot;.format(f))
+elif TempStr[-1] in ['F','f']:
+    c=(eval(TempStr[:-1])-32)/1.8
+    print(&quot;{:.2f}C&quot;.format(c))
+</code></pre>
+<p>part2:</p>
+<pre><code>import turtle as t
+t.setup(800,300,200,200)
+t.penup()
+t.fd(-150)
+t.pendown()
+t.seth(-40)
+t.pensize(25)
+t.pencolor(&quot;purple&quot;)
+for i in range(4):
+    t.circle(40,80)
+    t.circle(-40,80)
+t.circle(40,80/2)
+t.fd(40)
+t.circle(16,180)
+t.fd(40*2/3)
+t.done()
+</code></pre>
+<p>part3:</p>
+<pre><code>import turtle
+turtle.width(10)
+turtle.color(&quot;blue&quot;)
+turtle.circle(50)
 
- 3：&lt;embed border=&quot;0&quot; 
- marginwidth=&quot;0&quot; marginheight=&quot;0&quot; 
- width=&quot;250&quot; height=&quot;52&quot; 
- src=&quot;//music.163.com/outchain/player?type=0&amp;amp;id=1569141203&amp;amp;auto=1&amp;amp;height=32&quot;&gt;
+turtle.color(&quot;black&quot;)
+turtle.penup()
+turtle.goto(120, 0)
+turtle.pendown()
+turtle.circle(50)
 
- **虾米我爱你**&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;750&quot; height=&quot;110&quot; loading=&quot;lazy&quot; sandbox=&quot;allow-popups allow-scripts allow-same-origin&quot; src=&quot;https://www.xiami.com/webapp/embed-player?autoPlay=1&amp;id=59457&quot;&gt;&lt;/iframe&gt;</code></pre>
+turtle.color(&quot;red&quot;)
+turtle.penup()
+turtle.goto(240, 0)
+turtle.pendown()
+turtle.circle(50)
+
+turtle.color(&quot;yellow&quot;)
+turtle.penup()
+turtle.goto(60, -50)
+turtle.pendown()
+turtle.circle(50)
+
+turtle.color(&quot;green&quot;)
+turtle.penup()
+turtle.goto(180, -50)
+turtle.pendown()
+turtle.circle(50)
+</code></pre>
+<p>part4:</p>
+<pre><code>import turtle
+def drawsnake(rad,angle,len,neckrad):
+    a = ['blue','red','yellow','green','pink']
+    for i in range(0,len):
+        turtle.pencolor(a[i])
+        turtle.circle(rad,angle)
+        turtle.circle(-rad,angle)
+    turtle.pencolor('black')    
+    turtle.circle(rad,angle/2)
+    turtle.fd(rad)
+    turtle.circle(neckrad+1,180)
+    turtle.fd(rad*2/3)
+def main():
+    turtle.setup(1300,800,0,0)
+    pythonsize = 30
+    turtle.pensize(pythonsize)
+    turtle.seth(-40)
+    drawsnake(40,80,5,pythonsize/2)
+main()
+
+</code></pre>
+<p>part5:</p>
 
                     </div>
                 </article>
@@ -149,9 +212,9 @@ apple music:</p>
                 
                 <div class="next-post">
                     <div class="next">下一篇</div>
-                    <a href="https://liziblog.github.io/post/rss/">
+                    <a href="https://liziblog.github.io/post/wu-ti/">
                         <h3 class="post-title">
-                            rss
+                            无题
                         </h3>
                     </a>
                 </div>

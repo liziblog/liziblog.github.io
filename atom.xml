@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liziblog.github.io/</id>
     <title>blog</title>
-    <updated>2020-05-26T11:10:21.270Z</updated>
+    <updated>2020-05-29T09:51:08.989Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liziblog.github.io/"/>
     <link rel="self" href="https://liziblog.github.io/atom.xml"/>
@@ -10,6 +10,95 @@
     <logo>https://liziblog.github.io/images/avatar.png</logo>
     <icon>https://liziblog.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, blog</rights>
+    <entry>
+        <title type="html"><![CDATA[py实验报告]]></title>
+        <id>https://liziblog.github.io/post/py-shi-yan-bao-gao/</id>
+        <link href="https://liziblog.github.io/post/py-shi-yan-bao-gao/">
+        </link>
+        <updated>2020-05-29T07:21:07.000Z</updated>
+        <content type="html"><![CDATA[<p><strong>起因</strong>因需要写py实验报告，所以将所需实验代码扔在这，做个备份吧！<br>
+part1:</p>
+<pre><code>TempStr=input(&quot;请输入一个带有符号的温度值(82F)：&quot;)
+if TempStr[-1] in ['C','c']:
+    f=(eval(TempStr[:-1]))*1.8+32
+    print(&quot;{:.2f}F&quot;.format(f))
+elif TempStr[-1] in ['F','f']:
+    c=(eval(TempStr[:-1])-32)/1.8
+    print(&quot;{:.2f}C&quot;.format(c))
+</code></pre>
+<p>part2:</p>
+<pre><code>import turtle as t
+t.setup(800,300,200,200)
+t.penup()
+t.fd(-150)
+t.pendown()
+t.seth(-40)
+t.pensize(25)
+t.pencolor(&quot;purple&quot;)
+for i in range(4):
+    t.circle(40,80)
+    t.circle(-40,80)
+t.circle(40,80/2)
+t.fd(40)
+t.circle(16,180)
+t.fd(40*2/3)
+t.done()
+</code></pre>
+<p>part3:</p>
+<pre><code>import turtle
+turtle.width(10)
+turtle.color(&quot;blue&quot;)
+turtle.circle(50)
+
+turtle.color(&quot;black&quot;)
+turtle.penup()
+turtle.goto(120, 0)
+turtle.pendown()
+turtle.circle(50)
+
+turtle.color(&quot;red&quot;)
+turtle.penup()
+turtle.goto(240, 0)
+turtle.pendown()
+turtle.circle(50)
+
+turtle.color(&quot;yellow&quot;)
+turtle.penup()
+turtle.goto(60, -50)
+turtle.pendown()
+turtle.circle(50)
+
+turtle.color(&quot;green&quot;)
+turtle.penup()
+turtle.goto(180, -50)
+turtle.pendown()
+turtle.circle(50)
+</code></pre>
+<p>part4:</p>
+<pre><code>import turtle
+def drawsnake(rad,angle,len,neckrad):
+    a = ['blue','red','yellow','green','pink']
+    for i in range(0,len):
+        turtle.pencolor(a[i])
+        turtle.circle(rad,angle)
+        turtle.circle(-rad,angle)
+    turtle.pencolor('black')    
+    turtle.circle(rad,angle/2)
+    turtle.fd(rad)
+    turtle.circle(neckrad+1,180)
+    turtle.fd(rad*2/3)
+def main():
+    turtle.setup(1300,800,0,0)
+    pythonsize = 30
+    turtle.pensize(pythonsize)
+    turtle.seth(-40)
+    drawsnake(40,80,5,pythonsize/2)
+main()
+
+</code></pre>
+<p>part5:</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[无题]]></title>
         <id>https://liziblog.github.io/post/wu-ti/</id>
@@ -323,14 +412,5 @@ overflow: hidden; line-height: 0;" class="mce_SELRES_start"></span>
 <iframe style="min-width: 300px;min-height: 300px"   src="https://www.acfun.cn/player/ac10862309" id="ACPlayer-re"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 <p><font color=blue>好多视频网站都是支持内嵌代码的，手机状态下建议横屏</font></p>
 ]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[虾米]]></title>
-        <id>https://liziblog.github.io/post/xia-mi/</id>
-        <link href="https://liziblog.github.io/post/xia-mi/">
-        </link>
-        <updated>2020-05-21T13:28:46.000Z</updated>
-        <content type="html"><![CDATA[<p>虾米你真好！</p>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="750" height="110" loading="lazy" sandbox="allow-popups allow-scripts allow-same-origin" src="https://www.xiami.com/webapp/embed-player?autoPlay=1&id=1795530800"></iframe>]]></content>
     </entry>
 </feed>
