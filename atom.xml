@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liziblog.github.io/</id>
     <title>blog</title>
-    <updated>2020-06-29T10:58:32.195Z</updated>
+    <updated>2020-06-29T11:00:23.443Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liziblog.github.io/"/>
     <link rel="self" href="https://liziblog.github.io/atom.xml"/>
@@ -103,7 +103,9 @@
         <link href="https://liziblog.github.io/post/lesslesstao-hua-shi-greatergreater/">
         </link>
         <updated>2020-06-03T08:58:10.000Z</updated>
-        <content type="html"><![CDATA[<p>桃花坞里桃花庵，桃花庵里桃花仙；桃花仙人种桃树，又摘桃花换酒钱。<br>
+        <content type="html"><![CDATA[<!-- more -->
+<!-- more -->
+<p>桃花坞里桃花庵，桃花庵里桃花仙；桃花仙人种桃树，又摘桃花换酒钱。<br>
 酒醒只在花前坐，酒醉还来花下眠；半醒半醉日复日，花落花开年复年。<br>
 但愿老死花酒间，不愿鞠躬车马前；车尘马足贵者趣，酒盏花枝贫者缘。<br>
 若将富贵比贫贱，一在平地一在天；若将贫贱比车马，他得驱驰我得闲。<br>
